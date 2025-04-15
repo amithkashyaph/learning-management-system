@@ -4,4 +4,10 @@ import org.lms.enums.CourseLanguage;
 
 public class OnlineCourse extends Course {
 
+    private String zoomLink;
+
+    public OnlineCourse(int courseId, String courseName, String courseDescription, CourseLanguage courseLanguage, String zoomLink) {
+        super(courseId, courseName, courseDescription, courseLanguage);
+        this.zoomLink = zoomLink;
+    }
 }
