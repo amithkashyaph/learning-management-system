@@ -30,4 +30,47 @@ public class Course {
         }
     }
 
+    public void addCohort(Cohort cohort) {
+        this.cohorts.add(cohort);
+    }
+
+    public int getCourseId() {
+        return courseId;
+    }
+
+    public void setCourseId(int courseId) {
+        this.courseId = courseId;
+    }
+
+    public String getCourseName() {
+        return courseName;
+    }
+
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
+    }
+
+    public String getCourseDescription() {
+        return courseDescription;
+    }
+
+    public void setCourseDescription(String courseDescription) {
+        this.courseDescription = courseDescription;
+    }
+
+    public CourseLanguage getCourseLanguage() {
+        return courseLanguage;
+    }
+
+    public void setCourseLanguage(CourseLanguage courseLanguage) {
+        this.courseLanguage = courseLanguage;
+    }
+
+    public List<Cohort> getCohorts() {
+        return cohorts;
+    }
+
+    public void setCohorts(List<Cohort> cohorts) {
+        this.cohorts = cohorts;
+    }
 }
