@@ -10,4 +10,12 @@ public class OfflineCourse extends Course {
         super(courseId, courseName, courseDescription, courseLanguage);
         this.location = location;
     }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
 }
