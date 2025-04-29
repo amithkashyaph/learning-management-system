@@ -10,4 +10,12 @@ public class OnlineCourse extends Course {
         super(courseId, courseName, courseDescription, courseLanguage);
         this.zoomLink = zoomLink;
     }
+
+    public String getZoomLink() {
+        return zoomLink;
+    }
+
+    public void setZoomLink(String zoomLink) {
+        this.zoomLink = zoomLink;
+    }
 }
